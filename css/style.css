@@ -1,0 +1,525 @@
+/* root */
+:root{
+    --main-color:#e65f78;
+}
+body{
+    overflow: hidden;
+}
+/* nav */
+.navbar{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+.navbar .active{
+    color: var(--main-color) !important;
+}
+.nav-fixed {
+    position: fixed !important;
+    z-index: 99999;
+    background-color: rgba(0,0,0,0.7);
+    left: 0; 
+    right: 0;
+}
+.navbar-toggler {
+    color: white;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/* home */
+.home {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url(../images/kerri-images03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mwidth-500{
+    max-width: 500px;
+}
+.setting{
+    background-color: #333;
+    top: 30%;
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+.home h1{
+    width: 70%;
+}
+.home h1::after{
+    content: ' |';
+    margin-left: 2px;
+    animation: typing 10s infinite;
+}
+@keyframes typing {
+    0%{
+        content: ' |';
+    }
+    1%{
+        content: ' K|';
+    }
+    2%{
+        content: ' Ke|';
+    }
+    3%{
+        content: ' Ker|';
+    }
+    4%{
+        content: ' Keri|';
+    }
+    5%{
+        content: ' Kerri|';
+    }
+    6%{
+        content: ' Kerri D|';
+    }
+    7%{
+        content: ' Kerri De|';
+    }
+    8%{
+        content: ' Kerri Deo|';
+    }
+    9%{
+        content: ' Kerri Deo.|';
+    }
+    10%{
+        content: ' Kerri Deo|';
+    }
+    11%{
+        content: ' Kerri De|';
+    }
+    12%{
+        content: ' Kerri D|';
+    }
+    13%{
+        content: ' Kerri|';
+    }
+    14%{
+        content: ' Kerr|';
+    }
+    15%{
+        content: ' Ker|';
+    }
+    16%{
+        content: ' Ke|';
+    }
+    17%{
+        content: ' K|';
+    }
+    18%{
+        content: ' |';
+    }
+    19%{
+        content: ' A|';
+    }
+    20%{
+        content: ' A G|';
+    }
+    21%{
+        content: ' A Gr|';
+    }
+    22%{
+        content: ' A Gra|';
+    }
+    23%{
+        content: ' A Grap|';
+    }
+    24%{
+        content: ' A Graph|';
+    }
+    25%{
+        content: ' A Graphi|';
+    }
+    26%{
+        content: ' A Graphic|';
+    }
+    27%{
+        content: ' A Graphic |';
+    }
+    28%{
+        content: ' A Graphic D|';
+    }
+    29%{
+        content: ' A Graphic De|';
+    }
+    30%{
+        content: ' A Graphic Des|';
+    }
+    31%{
+        content: ' A Graphic Desi|';
+    }
+    32%{
+        content: ' A Graphic Desig|';
+    }
+    33%{
+        content: ' A Graphic Design|';
+    }
+    34%{
+        content: ' A Graphic Designe|';
+    }
+    35%{
+        content: ' A Graphic Designer|';
+    }
+    36%{
+        content: ' A Graphic Designer.|';
+    }
+    37%{
+        content: ' A Graphic Designer|';
+    }
+    38%{
+        content: ' A Graphic Designe|';
+    }
+    39%{
+        content: ' A Graphic Design|';
+    }
+    40%{
+        content: ' A Graphic Desig|';
+    }
+    41%{
+        content: ' A Graphic Desi|';
+    }
+    42%{
+        content: ' A Graphic Des|';
+    }
+    43%{
+        content: ' A Graphic De|';
+    }
+    44%{
+        content: ' A Graphic D|';
+    }
+    45%{
+        content: ' A Graphic |';
+    }
+    46%{
+        content: ' A Graphi|';
+    }
+    47%{
+        content: ' A Graph|';
+    }
+    48%{
+        content: ' A Grap|';
+    }
+    49%{
+        content: ' A Gra|';
+    }
+    50%{
+        content: ' A Gr|';
+    }
+    51%{
+        content: ' A G|';
+    }
+    52%{
+        content: ' A |';
+    }
+    53%{
+        content: ' A|';
+    }
+    54%{
+        content: ' A |';
+    }
+    55%{
+        content: ' A p|';
+    }
+    56%{
+        content: ' A ph|';
+    }
+    57%{
+        content: ' A pho|';
+    }
+    58%{
+        content: ' A phot|';
+    }
+    59%{
+        content: ' A photo|';
+    }
+    60%{
+        content: ' A photog|';
+    }
+    61%{
+        content: ' A photogr|';
+    }
+    62%{
+        content: ' A photogra|';
+    }
+    63%{
+        content: ' A photograp|';
+    }
+    64%{
+        content: ' A photograph|';
+    }
+    65%{
+        content: ' A photographe|';
+    }
+    66%{
+        content: ' A photographer|';
+    }
+    67%{
+        content: ' A photographer.|';
+    }
+    68%{
+        content: ' A photographer|';
+    }
+    69%{
+        content: ' A photographe|';
+    }
+    70%{
+        content: ' A photograph|';
+    }
+    71%{
+        content: ' A photograp|';
+    }
+    72%{
+        content: ' A photogra|';
+    }
+    73%{
+        content: ' A photogr|';
+    }
+    74%{
+        content: ' A photog|';
+    }
+    75%{
+        content: ' A photo|';
+    }
+    76%{
+        content: ' A phot|';
+    }
+    77%{
+        content: ' A pho|';
+    }
+    78%{
+        content: ' A ph|';
+    }
+    79%{
+        content: ' A p|';
+    }
+    80%{
+        content: ' A |';
+    }
+    81%, 82%, 83%, 84%, 85%, 86%, 87%, 88%, 89%, 90%, 91%, 92%, 93%, 94%, 95%, 96%, 97%, 98%, 99%, 100%{
+        content: ' |';
+    }
+}
+ .settings h2 {
+    color: black ;
+ }
+.gear-icon .fa-spin {
+    animation: spin 3s infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    } 100% {
+        transform:rotate(360deg)
+    }
+    
+}
+.settings {
+    background-color: f1f1f1;
+    left: 0px;
+   z-index: 99999;
+   cursor: pointer;
+}
+.gear-icon {
+    width: 40px;
+    font-size: 25px;
+    position: absolute;
+    display: flex;
+    background-color: rgb(23, 5, 5);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 0px;
+    right: -35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+  }
+.settings ul li:nth-child(1) {
+    width:30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.settings ul li:nth-child(2) {
+    width:30px;
+    height: 30px;
+    background-color: limegreen;
+    border-radius: 50%;
+}
+.settings ul li:nth-child(3) {
+    width:30px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+.settings ul li:nth-child(4) {
+    width:30px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 50%;
+}
+.settings ul li:nth-child(5) {
+    width:30px;
+    height: 30px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+.moving{
+    height: 60px;
+    width: 30px;
+    animation: moving 2s infinite;
+}
+.moving .small{
+    height: 10px;
+    width: 5px;
+    background-color: #fff;
+    bottom: 10px;
+    translate: -50%;
+}
+ @keyframes moving {
+    0%, 100%{
+        bottom: 30px;
+    }
+    50%{
+        bottom: 90px;
+    } 
+}
+/* about */
+.about img{
+    width: 600px;
+}
+.text-pink{
+    color: var(--main-color);
+}
+.bg-pink{
+    background-color: var(--main-color);
+}
+.social a{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ccc;
+    transition: border-color 200ms ease-in-out , 
+                color 200ms ease-in-out;
+}
+.social a:hover{
+    border-color: var(--main-color) ;
+    color: var(--main-color) !important;
+}
+/* services */
+.services ,.client{
+    background-color: #f7f7f7;
+}
+.w-fit{
+    width: fit-content;
+}
+.line-after::before{
+    content: "";
+    background-color: var(--main-color);
+    display: inline-block;
+    width: 25%;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: -70%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+    transition: width 200ms ease-in-out;
+}
+.services-card:hover .line-after::before{
+    width: 50%;
+}
+/* hire */
+.hire a{
+    background-color: var(--main-color);
+}
+/* client */
+.carousel-indicators button{
+    background-color: var(--main-color) !important;
+    height: 5px !important;
+}
+/* portfolio */
+.works{
+    overflow: hidden;
+}
+.overlay{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    top: 0px;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+.works:hover .overlay{
+    opacity: 1;
+}
+.works img{
+    transition: scale 300ms ease-in-out;
+}
+.works:hover img{
+    scale: 1.1;
+}
+.work li button.active{
+    background-color: #e65f78 !important;
+    color: #fff !important;
+}
+.work li button{
+    transition: background-color 200ms ease-in-out , 
+                color 200ms ease-in-out ;
+}
+.work li button:hover{
+    background-color: #e65f78 !important;
+    color: #fff !important;
+}
+/* blog */
+.blog{
+    background-color: #f7f7f7;
+}
+a{
+    text-decoration: none;
+}
+/* contact */
+input:focus, textarea:focus{
+    border: 2px solid var(--main-color) !important;
+    box-shadow: none !important;
+}
+/* footer */
+.social-icons a{
+    background-color: #474747;
+    width: 40px;
+    height: 40px;
+}
+.social-icons a i{
+    transition: color 200ms ease-in-out;
+}
+.social-icons a:hover i{
+    color: var(--main-color);
+}
+/* loading screen */
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+    .loading {
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999999;
+        background-color: #001524;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
